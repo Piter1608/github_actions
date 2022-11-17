@@ -1,0 +1,16 @@
+#Github Action project
+
+name: Git-Project
+
+on: 
+  push:
+    branches:
+      -main
+jobs:
+  show_my_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my Name
+        run : echo "PETRO"
+      - name: Print my Last Name
+        run : echo "OSHYPKO"
